@@ -1,6 +1,10 @@
+using crud_dotnet_asp.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Ola mundo !");
+app.MapGet("/v1/todos", () => {
+    return "Seja bem vindo";
+});
 
 app.Run();
