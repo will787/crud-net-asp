@@ -9,7 +9,7 @@ namespace crud_dotnet_asp.ViewModels
     public class CreateTodoViewModel
     {
         [Required]
-        public string? Title { get; set;} = null;
+        public string? Title { get; set;}
 
     }
 }
